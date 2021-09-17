@@ -1,6 +1,6 @@
 package BasicJava;
 
-public class Var_DataType {
+class Var_DataType {
    public static void main(String[] args) {
       int i = 10 ;
       char c = 'P';
