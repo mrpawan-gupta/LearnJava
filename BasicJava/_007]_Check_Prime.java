@@ -41,7 +41,8 @@ class Check_Prime {
 
         // method :--- 3 ;
         c = 0 ;
-        for(int i = 2 ; i <= Math.sqrt(num); i++) {
+        for(int i = 2 ; i <= Math.sqrt(num); i++) {    
+            // Note i < = Math.sqrt(nums) is also ==  i * i < num
             if(num%i ==0){
                 c++ ;
                 break ;
