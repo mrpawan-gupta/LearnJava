@@ -13,6 +13,7 @@ class Count_Digit {
         while(num!=0) {
             num = num/10 ;
             check = check + 1 ;
+            
         }
 
         System.out.println("Nuber of Digits: " + check);
